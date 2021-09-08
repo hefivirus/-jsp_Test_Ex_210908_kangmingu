@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>JSP_테스트과제01_20210908_홍길동</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+    <servlet>
+  	<servlet-name>JspTest</servlet-name>
+  	<servlet-class>com.javamingu.ex.JspTest</servlet-class>
+  	
+  	<init-param>
+  		<param-name>name</param-name>
+  		<param-value>abcd</param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>pw</param-name>
+  		<param-value>1234</param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>name</param-name>
+  		<param-value>0</param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>email</param-name>
+  		<param-value></param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>juso</param-name>
+  		<param-value></param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>job</param-name>
+  		<param-value></param-value>
+  	</init-param>
+  	
+  	
+  	
+  	
+  </servlet>
+  
+  <servlet-mapping> 
+  	<servlet-name>JspTest</servlet-name>
+  	<url-pattern>/InitParam</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+</web-app>
